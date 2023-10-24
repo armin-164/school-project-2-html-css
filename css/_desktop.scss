@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 @function pxToEm($n) {
   @return ($n/16) + em;
@@ -85,7 +86,7 @@ main {
     width: 50vw;
 }
 
-.page-title > :nth-child(2) {
+.page-title > :nth-child(1) {
     
 }
 
