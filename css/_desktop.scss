@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 @function pxToEm($n) {
-  @return ($n/16);
+  @return ($n/16) + em;
 }
 
 div, section, nav, header {
@@ -28,11 +30,14 @@ main {
 }
 
 .header {
-    grid-row: 1 / 3;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: fixed;
+    border-right: 20px solid yellow;
+    height: 100vh;
+    width: 7.2vw;
+    background-color: black; /* Remove this later */
 }
 
 
@@ -44,15 +49,22 @@ main {
     font-size: 4.5vh;
     display: flex;
     justify-content: center;
-    gap: 2em;
-    letter-spacing: 10px;
-    padding-top: 1.5rem;
+    gap: pxToEm(28);
+    letter-spacing: pxToEm(5);
+    padding-top: pxToEm(16);
+    font-family: 'Quicksand', sans-serif;
+    color:white;
 }
 
-.icon-hamburger-menu {
-    width: 8vw;
-    height: 15vh;
-  }
+/* .icon-hamburger-menu {
+    width: 5vw;
+    height: 10vh;
+  } */
+
+  .material-symbols-outlined {
+    color: yellow;
+    font-size: 5vw !important;
+  } 
 
 .page-1 {
     grid-column: 2 / 13;
