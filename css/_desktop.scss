@@ -72,4 +72,20 @@ main {
     flex-direction: column;
 }
 
+.page-1 > *, .page-1-top-section > * {
+    border: 1px solid blue;
+}
+
+.page-1-top-section {
+    display: flex;
+    height: 50vh;
+}
+
+.page-title {
+    width: 50vw;
+}
+
+.page-title > :nth-child(2) {
+    display: none;
+}
 
