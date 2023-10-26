@@ -71,6 +71,7 @@ main {
     grid-column: 2 / 13;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 
 .page-1 > *, .page-1-top-section > * {
@@ -83,10 +84,45 @@ main {
 }
 
 .page-title {
-    width: 50vw;
+    width: 75vw;
+    position: relative;
 }
 
-.page-title > :nth-child(1) {
+
+.page-title {
+    :nth-child(1) {
+        position: absolute;
+        font-size: 2rem;
+        top: 85px;
+        left: 440px;
+        font-family: 'Quicksand', sans-serif;
+        color: purple;
+        font-weight: 700;
     
+    }
+    
+    :nth-child(2) {
+        position: absolute;
+         font-size: 5rem;
+         top: 55px;
+         left: 315px;
+         font-family: 'Quicksand', sans-serif;
+         font-weight: 700;
+         color: rgb(19, 253, 19);
+     
+     
+     }
+
+    :nth-child(3) {
+        position: absolute;
+         font-size: 1rem;
+         font-family: 'Quicksand', sans-serif;
+         color: yellow;
+    
+     }
+}
+
+.food-description-top {
+    width: 110vw;
 }
 
