@@ -81,8 +81,13 @@ main {
 
 
 .page-title {
-    :nth-child(1) {
+
+    :nth-child(1), :nth-child(2), :nth-child(3) {
         position: absolute;
+        text-transform: uppercase;
+    }
+
+    :nth-child(1) {
         font-size: 2rem;
         top: 85px;
         left: 440px;
@@ -93,7 +98,6 @@ main {
     }
     
     :nth-child(2) {
-        position: absolute;
          font-size: 5rem;
          top: 55px;
          left: 315px;
@@ -105,7 +109,6 @@ main {
      }
 
     :nth-child(3) {
-        position: absolute;
          font-size: 1rem;
          font-family: 'Jockey One', sans-serif;
          color: yellow;
