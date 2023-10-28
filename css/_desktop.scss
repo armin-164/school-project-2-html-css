@@ -33,90 +33,94 @@ main {
     height: 100vh;
     width: 7.2vw;
     background-color: black; /* Remove this later */
+
+    .header-text {
+        writing-mode: vertical-rl;
+        text-orientation: upright; 
+        white-space: nowrap; 
+        font-size: 4.5vh;
+        display: flex;
+        justify-content: center;
+        gap: pxToEm(28);
+        letter-spacing: pxToEm(5);
+        padding-top: pxToEm(16);
+        font-family: 'Quicksand', sans-serif;
+        color:white;
+    }
+
+    .nav-bar > #icon-hamburger-menu {
+        color: yellow;
+        font-size: 5vw;
+      } 
+    
 }
-
-
-
-.header-text {
-    writing-mode: vertical-rl;
-    text-orientation: upright; 
-    white-space: nowrap; 
-    font-size: 4.5vh;
-    display: flex;
-    justify-content: center;
-    gap: pxToEm(28);
-    letter-spacing: pxToEm(5);
-    padding-top: pxToEm(16);
-    font-family: 'Quicksand', sans-serif;
-    color:white;
-}
-
-
-
-  #icon-hamburger-menu {
-    color: yellow;
-    font-size: 5vw;
-  } 
+ 
 
 .page-1 {
     grid-column: 2 / 13;
     display: flex;
     flex-direction: column;
     background-color: black;
+
+    .page-1-top-section {
+        display: flex;
+        height: 50vh;
+
+        .page-title {
+
+            width: 75vw;
+            position: relative;
+        
+            :nth-child(1), :nth-child(2), :nth-child(3) {
+                position: absolute;
+                text-transform: uppercase;
+            }
+        
+            :nth-child(1) {
+                font-size: 2rem;
+                top: 85px;
+                left: 440px;
+                font-family: 'Jockey One', sans-serif;
+                color: purple;
+                font-weight: 700;
+            
+            }
+            
+            :nth-child(2) {
+                 font-size: 5rem;
+                 top: 55px;
+                 left: 315px;
+                 font-family: 'Jockey One', sans-serif;
+                 font-weight: 700;
+                 color: rgb(19, 253, 19);
+             
+             
+             }
+        
+            :nth-child(3) {
+                 font-size: 1rem;
+                 font-family: 'Jockey One', sans-serif;
+                 color: yellow;
+            
+             }
+        }
+
+        .food-description-top {
+            width: 110vw;
+        }
+    }
 }
 
 .page-1 > *, .page-1-top-section > * {
     border: 1px solid blue;
 }
 
-.page-1-top-section {
-    display: flex;
-    height: 50vh;
-}
-
-.page-title {
-    width: 75vw;
-    position: relative;
-}
 
 
-.page-title {
 
-    :nth-child(1), :nth-child(2), :nth-child(3) {
-        position: absolute;
-        text-transform: uppercase;
-    }
 
-    :nth-child(1) {
-        font-size: 2rem;
-        top: 85px;
-        left: 440px;
-        font-family: 'Jockey One', sans-serif;
-        color: purple;
-        font-weight: 700;
-    
-    }
-    
-    :nth-child(2) {
-         font-size: 5rem;
-         top: 55px;
-         left: 315px;
-         font-family: 'Jockey One', sans-serif;
-         font-weight: 700;
-         color: rgb(19, 253, 19);
-     
-     
-     }
 
-    :nth-child(3) {
-         font-size: 1rem;
-         font-family: 'Jockey One', sans-serif;
-         color: yellow;
-    
-     }
-}
 
-.food-description-top {
-    width: 110vw;
-}
+
+
 
