@@ -85,7 +85,7 @@ main {
             
             :nth-child(2) {
                  font-size: 13vh;
-                 top: 0.1%%;
+                 top: 0.1%;
                  left: 21.15%;
                  font-family: 'Jockey One', sans-serif;
                  color: rgb(19, 253, 19);
@@ -108,10 +108,10 @@ main {
             color: rgba(100%, 0%, 78%, 100%); // DU MÅSTE ÄNDRA DEN HÄR FÄRGEN 
 
             > p {
-                font-size: 2.75vw;
+                font-size: 5vh;
                 font-family: "Jockey One", sans-serif;
                 margin: 0;
-                padding: 20px 25px 0 25px;
+                padding-top: 20px;
             }
         }
     }
