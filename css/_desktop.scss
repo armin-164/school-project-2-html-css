@@ -102,14 +102,13 @@ main {
         }
 
         .food-description-top {
-            width: 110vw;
-            padding-top: 20px;
+            width: 135vw;
             color: rgba(100%, 0%, 78%, 100%); // DU MÅSTE ÄNDRA DEN HÄR FÄRGEN 
 
             > p {
-                font-size: 4.8vh;
+                margin-top:3vh;
+                font-size: 5vh;
                 font-family: "Jockey One", sans-serif;
-                margin: 0;
             }
         }
     }
@@ -129,9 +128,4 @@ main {
             }
         }
     }
-}
-
-
-.page-1-top-section > * {
-    border: 1px solid blue;
 }
