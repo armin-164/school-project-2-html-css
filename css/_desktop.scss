@@ -69,7 +69,6 @@ main {
         .page-title {
 
             width: 75vw;
-            position: relative;
         
             :nth-child(1), :nth-child(2), :nth-child(3) {
                 position: absolute;
@@ -78,8 +77,8 @@ main {
         
             :nth-child(1) {
                 font-size: 5.5vh;
-                top: 80px;
-                left: 490px;
+                top: 7%;
+                left: 30%;
                 font-family: 'Jockey One', sans-serif;
                 color: purple;
                 font-weight: 700;
@@ -88,8 +87,8 @@ main {
             
             :nth-child(2) {
                  font-size: 13vh;
-                 top: 20px;
-                 left: 315px;
+                 top: 2%;
+                 left: 21%;
                  letter-spacing: 0.2rem;
                  font-family: 'Jockey One', sans-serif;
                  font-weight: 700;
@@ -100,8 +99,8 @@ main {
         
             :nth-child(3) {
                  font-size: 5.5vh;
-                 top: 220px;
-                 left: 325px;
+                 top: 21%;
+                 left: 21.5%;
                  font-family: 'Jockey One', sans-serif;
                  color: yellow;
             
