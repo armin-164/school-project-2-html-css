@@ -79,7 +79,7 @@ main {
             :nth-child(1) {
                 font-size: 2rem;
                 top: 85px;
-                left: 440px;
+                left: 430px;
                 font-family: 'Jockey One', sans-serif;
                 color: purple;
                 font-weight: 700;
@@ -90,6 +90,7 @@ main {
                  font-size: 5rem;
                  top: 55px;
                  left: 315px;
+                 letter-spacing: 0.2rem;
                  font-family: 'Jockey One', sans-serif;
                  font-weight: 700;
                  color: rgb(19, 253, 19);
@@ -98,7 +99,9 @@ main {
              }
         
             :nth-child(3) {
-                 font-size: 1rem;
+                 font-size: 2.1rem;
+                 top: 170px;
+                 left: 325px;
                  font-family: 'Jockey One', sans-serif;
                  color: yellow;
             
@@ -107,6 +110,14 @@ main {
 
         .food-description-top {
             width: 110vw;
+            color: rgba(100%, 0%, 78%, 100%); // DU MÅSTE ÄNDRA DEN HÄR FÄRGEN 
+
+            > p {
+                font-size: 2.75vw;
+                font-family: "Jockey One", sans-serif;
+                margin: 0;
+                padding: 20px 25px 0 25px;
+            }
         }
     }
 }
