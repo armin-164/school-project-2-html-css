@@ -2,16 +2,8 @@
   @return ($n/16) + em;
 }
 
-
 body {
     margin: 0;
-}
-
-/* Essentiell kod*/
-
-img, svg {
-  width: 300px;
-  height: 400px;
 }
 
 main {
@@ -28,7 +20,7 @@ main {
     position: fixed;
     height: 100vh;
     width: 8.4vw;
-    background-color: black; /* Remove this later */
+    background-color: black; 
 
     .header-text {
         writing-mode: vertical-rl;
@@ -61,6 +53,8 @@ main {
     border-left: 1.2vw solid yellow;
     border-right: 1.2vw solid yellow;
 
+
+    ///// PAGE 1 TOP SECTION \\\\\
     .page-1-top-section {
         display: flex;
         height: 50vh;
@@ -112,7 +106,7 @@ main {
             }
         }
     }
-
+    ///// PAGE 2 BOTTOM SECTION \\\\\
     .page-1-bottom-section {
         height: 50vh;
         width: 100%;
@@ -169,3 +163,7 @@ main {
 
     }
 }
+
+
+//////////////// PAGE 2 STYLING \\\\\\\\\\\\\\\\\
+
