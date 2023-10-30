@@ -76,7 +76,7 @@ main {
             :nth-child(1) {
                 font-size: 5vh;
                 top: 7%;
-                left: 30%;
+                left: 28.9%;
                 font-family: 'Jockey One', sans-serif;
                 color: purple;            
             }
@@ -120,19 +120,19 @@ main {
 
         .page-1-img {
             height: 100%;
-            width: 80vw;
+            width: 85vw;
+            position: relative;
 
 
             .arrow-down {
                 position: absolute;
                 transform: rotate(90deg);
-                top: 69vh ;
+                top: 40%;
                 width: 3vw;
-                font-size: 40px;
             }
 
             .img-lettuce {
-                width: 100%;
+                width: 90%;
                 height: 100%;
             }
         }
