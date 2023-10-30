@@ -130,6 +130,11 @@ main {
                 top: 85%;
                 width: 3vw;
                 height: 4vh;
+                transition: transform 0.4s;
+            }
+
+            .arrow-down:hover {
+                transform: rotate(90deg) translateX(10px);
             }
 
             .img-lettuce {
