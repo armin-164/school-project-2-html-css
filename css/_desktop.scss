@@ -124,14 +124,12 @@ main {
             width: 85vw;
             position: relative;
 
-
             .arrow-down {
                 position: absolute;
                 transform: rotate(90deg);
-                top: 40%;
-                bottom: 0;
-                left: 10px;
+                top: 85%;
                 width: 3vw;
+                height: 4vh;
             }
 
             .img-lettuce {
