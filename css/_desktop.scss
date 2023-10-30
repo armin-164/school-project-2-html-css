@@ -6,10 +6,14 @@ body {
     margin: 0;
 }
 
+//// Variables \\\\
+$side-border: 1.2vw solid yellow;
+
 main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 100vh);
+    column-gap: 16px;
     width: 100%;
 }
 
@@ -50,8 +54,8 @@ main {
     display: flex;
     flex-direction: column;
     background-color: black;
-    border-left: 1.2vw solid yellow;
-    border-right: 1.2vw solid yellow;
+    border-left: $side-border;
+    border-right: $side-border;
 
 
     ///// PAGE 1 TOP SECTION \\\\\
@@ -167,3 +171,10 @@ main {
 
 //////////////// PAGE 2 STYLING \\\\\\\\\\\\\\\\\
 
+.page-2 {
+    border-left: $side-border;
+    border-right: $side-border;
+    background-color: yellow;
+    grid-column: 2 / 13;
+    grid-row: 2 / 3;
+}
