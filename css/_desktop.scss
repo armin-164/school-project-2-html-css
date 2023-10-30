@@ -115,6 +115,7 @@ main {
 
     .page-1-bottom-section {
         height: 50vh;
+        width: 100%;
         display: flex;
         color: white;
 
@@ -138,5 +139,31 @@ main {
                 height: 100%;
             }
         }
+
+        .food-description-bottom {
+            background-color: white;
+            border-left: 1.2vw solid yellow;
+            font-family: "Jockey One", sans-serif;
+            color: purple;
+            height: 100%;
+            width: 100%;
+            font-size: 4vw;
+            padding-top: 1vw;
+
+            .food-paragraph {
+                margin: 0;
+            }
+
+            span {
+                color: black;
+                display: inline-block;
+            }
+
+            .arrow-right {
+                width: 4vw;
+                height: 3vh;
+            }
+        }
+
     }
 }
