@@ -87,6 +87,7 @@ main {
                  left: 21.15%;
                  font-family: 'Jockey One', sans-serif;
                  color: #00FF38;
+                 z-index: 1;
              
              
              }
@@ -96,8 +97,7 @@ main {
                  top: 19.5%;
                  left: 22.2%;
                  font-family: 'Jockey One', sans-serif;
-                 color: yellow;
-            
+                 color: yellow;            
              }
         }
 
@@ -142,7 +142,7 @@ main {
             background-color: white;
             border-left: 1.2vw solid yellow;
             font-family: "Jockey One", sans-serif;
-            color: purple;
+            color: #ac76ff;
             height: 100%;
             width: 100%;
             font-size: 2.5vw;
