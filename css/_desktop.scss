@@ -8,6 +8,8 @@ body {
 
 //// Variables \\\\
 $side-border: 1.2vw solid yellow;
+$jockey-one: "Jockey One", sans-serif;
+$quicksand: "Quicksand", sans-serif;
 
 main {
     display: grid;
@@ -106,7 +108,7 @@ main {
             > p {
                 margin: 0;
                 font-size: 5vh;
-                font-family: "Jockey One", sans-serif;
+                font-family: $jockey-one;
             }
         }
     }
@@ -144,7 +146,7 @@ main {
         .food-description-bottom {
             background-color: white;
             border-left: 1.2vw solid yellow;
-            font-family: "Jockey One", sans-serif;
+            font-family: $jockey-one;
             color: #ac76ff;
             height: 100%;
             width: 100%;
@@ -220,7 +222,7 @@ main {
                 align-items: center;
                 gap: 0.5vw;
                 text-transform: uppercase;
-                font-family: "Jockey One", sans-serif;
+                font-family: $jockey-one;
                 font-size: 1.2vw;
             }
 
@@ -228,13 +230,13 @@ main {
                 position: absolute;
                 left: 35%;
                 font-size: 1vw;
-                font-family: "Quicksand", sans-serif;
+                font-family: $quicksand;
             }
 
             .right-side {
                 position: absolute;
                 right: 2vw;
-                font-family: "Quicksand", sans-serif;
+                font-family: $quicksand;
             }
             
         }
