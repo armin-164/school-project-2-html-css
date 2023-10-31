@@ -204,7 +204,6 @@ main {
     }
 
     .menu-container {
-        border: 1px solid blue;
         display: flex; 
         flex-direction: column;
         gap: 1vh;
@@ -214,7 +213,8 @@ main {
             display: flex;
             align-items: center;
             height: 6vh;
-            border: 1px solid red;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
             background-color: white;
 
             .left-side {
@@ -223,8 +223,39 @@ main {
                 gap: 0.5vw;
                 text-transform: uppercase;
                 font-family: $jockey-one;
-                font-size: 1.2vw;
+                font-size: 1.8vw;
+                margin-left: 1vw;
             }
+
+            .hightlights {
+                font-size: 0.75vw;
+                font-family: 'Times New Roman', Times, serif;
+                width: 3.5vw;
+                text-align: center;
+            }
+
+            .hl-container-1 {
+                transform: rotate(4deg);
+                background-color: #ac76ff;
+                .hightlight-1 {
+                    display: inline-block;
+                    transform: rotate(-4deg); 
+                }
+            }
+
+            .hl-container-2 {
+                transform: rotate(-4deg);
+                background-color: #00FF38;
+                .hightlight-2 {
+                    display: inline-block;
+                    transform: rotate(4deg); 
+                }
+            }
+
+            .hl-container-3 {
+                background-color: yellow;
+            }
+            
 
             .center {
                 position: absolute;
@@ -236,7 +267,8 @@ main {
             .right-side {
                 position: absolute;
                 right: 2vw;
-                font-family: $quicksand;
+                font-size: 2vw;
+                font-family: $jockey-one;
             }
             
         }
