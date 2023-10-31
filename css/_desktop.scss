@@ -208,8 +208,35 @@ main {
         gap: 1vh;
 
         .items {
+            position: relative;
+            display: flex;
+            align-items: center;
             height: 6vh;
             border: 1px solid red;
+            background-color: white;
+
+            .left-side {
+                display: flex;
+                align-items: center;
+                gap: 0.5vw;
+                text-transform: uppercase;
+                font-family: "Jockey One", sans-serif;
+                font-size: 1.2vw;
+            }
+
+            .center {
+                position: absolute;
+                left: 35%;
+                font-size: 1vw;
+                font-family: "Quicksand", sans-serif;
+            }
+
+            .right-side {
+                position: absolute;
+                right: 2vw;
+                font-family: "Quicksand", sans-serif;
+            }
+            
         }
 
     }
