@@ -177,4 +177,24 @@ main {
     background-color: yellow;
     grid-column: 2 / 13;
     grid-row: 2 / 3;
+
+
+    .img-container-dishes {
+        border: 1px solid blue;
+        display: flex;
+        gap: 25px;
+        margin-top: 2vh;
+        height: 44vh;
+
+        .img-1 {
+            flex: 1.75;
+        }
+
+        .img-2 {
+            flex: 2.25;
+        }
+        .img-3 {
+            flex: 2;
+        }
+    }
 }
