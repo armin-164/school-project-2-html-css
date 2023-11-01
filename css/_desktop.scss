@@ -274,3 +274,43 @@ main {
 
     }
 }
+
+
+//////////////// PAGE 3 STYLING \\\\\\\\\\\\\\\\\
+
+.page-3 {
+    border-left: 1.2vw solid white;
+    background-color: #00FF38;
+    grid-column: 2 / 13;
+    grid-row: 3 / 4;
+
+    .contact-form {
+        border: 1px solid green;
+        width: 50%;
+        height: 100%;
+
+        h2 {
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style-type: none;
+            font-size: 2vw;
+            font-family: $jockey-one ;
+            text-transform: uppercase;
+
+            li {
+                display: flex;
+                align-items: center;
+
+                input {
+                    width: 10vw;
+                    height: 2.5vh;
+                    border-radius: 1vh;
+                    border: none;
+                }
+
+            }
+        }
+    }
+}
