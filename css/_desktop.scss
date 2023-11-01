@@ -283,6 +283,7 @@ main {
     background-color: #00FF38;
     grid-column: 2 / 13;
     grid-row: 3 / 4;
+    display: flex;
 
     .contact-form {
         border: 1px solid green;
@@ -348,4 +349,20 @@ main {
             }
         }
     }
+
+    .info-container {
+        width: 50%;
+        height: 100%;
+
+        .contact-info {
+            width: 30vw;
+            height: 60vh;
+            position: relative;
+            top: 20%;
+            left: 13%;
+            object-fit: cover;
+        }
+
+    }
+
 }
