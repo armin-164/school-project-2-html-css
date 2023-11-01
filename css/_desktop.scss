@@ -192,13 +192,16 @@ main {
 
         .img-1 {
             flex: 1.5;
+            object-fit: cover;
         }
 
         .img-2 {
             flex: 2;
+            object-fit: cover;
         }
         .img-3 {
             flex: 2;
+            object-fit: cover;
         }
     }
 
