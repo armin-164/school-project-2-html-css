@@ -357,13 +357,14 @@ main {
         width: 50%;
         height: 100%;
 
-        .contact-info {
+        .contact-img {
             width: 30vw;
             height: 60vh;
             position: relative;
             top: 20%;
             left: 13%;
             object-fit: cover;
+            filter: blur(3px);
         }
 
     }
