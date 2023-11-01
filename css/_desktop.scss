@@ -53,11 +53,11 @@ main {
 //////////////// HAMBURGER MENU STYLING \\\\\\\\\\\\\\\\\
 
 .hamburger-menu {
-    width: 90.5vw;
+    width: 91.6%;
     height: 100%;
     z-index: 2;
-    background-color: white;
-    position: absolute;
+    background-color: #AA75FF;
+    position: fixed;
     right: 0;
     transition: transform 0.5s ease;
     transform: translateX(-120%);
