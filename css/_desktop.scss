@@ -356,6 +356,7 @@ main {
     .info-container {
         width: 50%;
         height: 100%;
+        position: relative;
 
         .contact-img {
             width: 30vw;
@@ -366,6 +367,38 @@ main {
             object-fit: cover;
             filter: blur(3px);
         }
+
+        .contact-info {
+            color: rgb(113, 217, 251);
+            font-size: 2.3rem;
+            font-family: $jockey-one;
+            text-shadow: -2px -4px  black;
+
+            .rows {
+                position: absolute;
+                left: 28%;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .row-1 {
+                top: 38%;
+            }
+
+            .row-2 {
+                top: 48%;
+            }
+
+            .row-3 {
+                top:58%;
+
+                .restaurant-location > span {
+                    display: block;
+                }
+            }
+        }
+        
 
     }
 
