@@ -359,7 +359,7 @@ main {
 
         .contact-img {
             width: 30vw;
-            height: 60vh;
+            height: 50%;
             position: relative;
             top: 22%;
             left: 13%;
@@ -375,7 +375,7 @@ main {
 
             .rows {
                 position: absolute;
-                left: 21%;
+                left: 24%;
                 display: flex;
                 align-items: center;
                 gap: 20px;
@@ -387,15 +387,15 @@ main {
             }
 
             .row-1 {
-                top: 40%;
+                top: 37%;
             }
 
             .row-2 {
-                top: 50%;
+                top: 45%;
             }
 
             .row-3 {
-                top:58%;
+                top: 55%;
 
                 .restaurant-location > span {
                     display: block;
