@@ -37,6 +37,9 @@
       </nav>
       <h1 class="header-text"><span>TOUGH</span><span>COOKIE</span></h1>
     </div>
+    <div class="hamburger-menu">
+      test
+    </div>
     <div class="page-1">
       <section class="page-1-top-section">
         <div class="page-title">
@@ -221,5 +224,13 @@
     </div>
   </main>
 
+
+<script>
+    const menuBtn = document.querySelector("#icon-hamburger-menu");
+    const menu = document.querySelector(".hamburger-menu");
+    menuBtn.addEventListener('click', () => {
+    menu.classList.toggle('menu-open');
+});
+</script>
 </body>
 </html>
