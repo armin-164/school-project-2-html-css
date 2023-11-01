@@ -128,16 +128,18 @@ main {
                 position: absolute;
                 transform: rotate(90deg);
                 top: 85%;
+                left: 0;
                 width: 3vw;
                 height: 4vh;
                 transition: transform 0.4s;
             }
 
-            .arrow-down:hover {
-                transform: rotate(90deg) translateX(10px);
-            }
+    
 
             .img-lettuce {
+                &:hover + img {
+                    transform: rotate(90deg) translateX(10px);
+                }
                 width: 90%;
                 height: 100%;
             }
@@ -342,7 +344,7 @@ main {
                 }
 
                 .reset-button {
-                    background-color: #ac76ff;
+                    background-color: #AA75FF;
                 }
 
                 .submit-button {
