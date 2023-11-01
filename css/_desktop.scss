@@ -291,6 +291,8 @@ main {
 
         h2 {
             text-transform: uppercase;
+            font-size: 2.5vw;
+            font-family: $jockey-one;
         }
 
         ul {
@@ -299,17 +301,44 @@ main {
             font-family: $jockey-one ;
             text-transform: uppercase;
 
-            li {
+            li:nth-child(-n+6) {
                 display: flex;
                 align-items: center;
-
-                input {
+                position: relative;
+                input, textarea {
                     width: 10vw;
                     height: 2.5vh;
                     border-radius: 1vh;
                     border: none;
+                    position: absolute;
+                    left: 20%;
+                }
+            }
+
+            .buttons {
+                display: flex;
+                align-items: center;
+                gap: 0.75vw;
+                .reset-button::first-line, .submit-button::first-line {
+                    text-transform: uppercase;
                 }
 
+                .reset-button, .submit-button {
+                    height: 4vh;
+                    border-radius: 1vh;
+                    border: 0;
+                    width: 9vw;
+                    font-family: $jockey-one;
+                    font-size: 1.3vw;
+                }
+
+                .reset-button {
+                    background-color: #ac76ff;
+                }
+
+                .submit-button {
+                    background-color: yellow;
+                }
             }
         }
     }
