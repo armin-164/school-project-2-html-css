@@ -289,7 +289,6 @@ main {
     display: flex;
 
     .contact-form {
-        border: 1px solid green;
         width: 50%;
         height: 100%;
 
@@ -317,7 +316,7 @@ main {
                 position: relative;
                 input, textarea {
                     width: 20vw;
-                    height: 4.5vh;
+                    height: 3.5vh;
                     border-radius: 1vh;
                     border: none;
                     position: absolute;
@@ -362,7 +361,7 @@ main {
             width: 30vw;
             height: 60vh;
             position: relative;
-            top: 20%;
+            top: 22%;
             left: 13%;
             object-fit: cover;
             filter: blur(3px);
@@ -370,24 +369,29 @@ main {
 
         .contact-info {
             color: rgb(113, 217, 251);
-            font-size: 2.3rem;
+            font-size: 2vw;
             font-family: $jockey-one;
             text-shadow: -2px -4px  black;
 
             .rows {
                 position: absolute;
-                left: 28%;
+                left: 21%;
                 display: flex;
                 align-items: center;
                 gap: 20px;
+
+                .material-symbols-outlined {
+                    font-size: 3vw;
+                }
+
             }
 
             .row-1 {
-                top: 38%;
+                top: 40%;
             }
 
             .row-2 {
-                top: 48%;
+                top: 50%;
             }
 
             .row-3 {
