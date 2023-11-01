@@ -61,6 +61,14 @@ main {
     right: 0;
     transition: transform 0.5s ease;
     transform: translateX(-120%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 4vw;
+    font-family: $jockey-one;
+    color: white;
   }
 
   .menu-open {
