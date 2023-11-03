@@ -256,14 +256,16 @@ header {
                 font-family: $jockey-one;
                 font-size: 1.8vw;
                 margin-left: 1vw;
+
+                .hightlights {
+                    font-size: 0.75vw;
+                    font-family: 'Times New Roman', Times, serif;
+                    width: 3.5vw;
+                    text-align: center;
+                }
             }
 
-            .hightlights {
-                font-size: 0.75vw;
-                font-family: 'Times New Roman', Times, serif;
-                width: 3.5vw;
-                text-align: center;
-            }
+            
 
             .hl-container-1 {
                 transform: rotate(4deg);
