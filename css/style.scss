@@ -123,6 +123,52 @@ header {
   }
 }
 
+.page-3 {
+  background-color: #00FF38; // DUPE
+
+  .contact-form {
+
+    h2 {
+      text-transform: uppercase; // DUPE
+      font-family: "Jockey One", sans-serif; // DUPE
+      font-weight: 400; // DUPE
+    }
+
+    ul {
+      list-style-type: none; // DUPE
+      font-family: "Jockey One", sans-serif; // DUPE
+      text-transform: uppercase; // DUPE
+
+      li:nth-child(-n+6) {
+        display: flex; // DUPE
+
+        input, textarea {
+          border-radius: 0.25rem; // DUPE
+          border: none; // DUPE
+        }
+      }
+
+      .buttons {
+        display: flex; // DUPE
+
+        .reset-button, .submit-button {
+          border-radius: 0.5rem; // DUPE
+          border: none; // DUPE
+          font-family: "Jockey One", sans-serif; // DUPE
+          color: black; // DUPE
+        }
+
+        .reset-button {
+          background-color: #AA75FF; // DUPE
+        }
+
+        .submit-button {
+          background-color: yellow; // DUPE
+        }
+      }
+    }
+  }
+}
 
 
 @media screen and (max-width: 1279px) {
