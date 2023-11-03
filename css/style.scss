@@ -3,14 +3,14 @@ html, body {
 }
 
 body {
-  margin: 0; // DUPE
+  margin: 0; 
 }
 
 
 header {
-  background-color: black; // DUPE
-  display: flex; // DUPE
-  align-items: center; // DUPE
+  background-color: black; 
+  display: flex; 
+  align-items: center; 
   .header-text {
     display: flex;
     justify-content: center;
@@ -24,42 +24,42 @@ header {
 }
 
 .hamburger-menu {
-  position: fixed; // DUPE
-  background-color: #AA75FF; // DUPE
-  z-index: 2; // DUPE
-  transition: transform 0.5s ease; // DUPE
-  display: flex; // DUPE
-  justify-content: center; // DUPE
-  align-items: center; // DUPE
-  flex-direction: column; // DUPE
-  font-family: "Jockey One", sans-serif;// DUPE
-  color: white; // DUPE
-  gap: 4vh; // DUPE
+  position: fixed; 
+  background-color: #AA75FF; 
+  z-index: 2; 
+  transition: transform 0.5s ease; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  font-family: "Jockey One", sans-serif;
+  color: white; 
+  gap: 4vh; 
 }
 
 .page-1 {
   background-color: black; 
 
   .page-1-bottom-section {
-    display: flex; // DUPE
-    color: white; // DUPE
+    display: flex; 
+    color: white; 
 
     .page-1-img {
-      height: 100%; // DUPE
+      height: 100%; 
 
       .arrow-down {
         position: absolute;
-        transform: rotate(90deg); // DUPE
+        transform: rotate(90deg); 
       }
     }
 
     .food-description-bottom {
-      font-family: "Jockey One", sans-serif; // DUPE
-      background-color: white; // DUPE
-      color: #ac76ff; // DUPE
+      font-family: "Jockey One", sans-serif; 
+      background-color: white; 
+      color: #ac76ff; 
 
       span {
-        color: black; // DUPE
+        color: black; 
       }
     }
 
@@ -70,64 +70,64 @@ header {
 .page-2 {
   
   .img-container-dishes {
-    display: flex; // DUPE
+    display: flex; 
   }
 
   .menu-container {
-    display: flex; // DUPE
-    flex-direction: column; // DUPE
-    gap: 1vh; // DUPE
+    display: flex; 
+    flex-direction: column; 
+    gap: 1vh; 
 
     .items {
-      position: relative; // DUPE
-      display: flex; // DUPE
-      align-items: center; // DUPE
-      background-color: white; // DUPE
-      border-top: 1px solid black; // DUPE
-      border-bottom: 1px solid black; // DUPE
+      position: relative; 
+      display: flex; 
+      align-items: center; 
+      background-color: white; 
+      border-top: 1px solid black; 
+      border-bottom: 1px solid black; 
 
       .left-side {
-        display: flex; // DUPE
-        align-items: center; // DUPE
-        text-transform: uppercase; // DUPE
-        font-family: "Jockey One", sans-serif; // DUPE
+        display: flex; 
+        align-items: center; 
+        text-transform: uppercase; 
+        font-family: "Jockey One", sans-serif; 
 
         .hightlights{
-          font-family: 'Times New Roman', Times, serif; // DUPE
-          text-align: center; // DUPE
+          font-family: 'Times New Roman', Times, serif; 
+          text-align: center; 
         }
 
         .hl-container-1 {
-          transform: rotate(4deg); // DUPE
-          background-color: #ac76ff; // DUPE
+          transform: rotate(4deg); 
+          background-color: #ac76ff; 
 
           .hightlight-1 {
-            display: inline-block; // DUPE
-            transform: rotate(-4deg); // DUPE
+            display: inline-block; 
+            transform: rotate(-4deg); 
           }
         }
 
         .hl-container-2 {
-          transform: rotate(-4deg); // DUPE
-          background-color: #00FF38; // DUPE
+          transform: rotate(-4deg); 
+          background-color: #00FF38; 
 
           .hightlight-2 {
-            display: inline-block; // DUPE
-            transform: rotate(4deg); // DUPE
+            display: inline-block; 
+            transform: rotate(4deg); 
           }
         }
 
         .hl-container-3 {
-          background-color: yellow; // DUPE
+          background-color: yellow; 
         }
       }
 
       .center {
-        font-family: "Quicksand", sans-serif; // DUPE
+        font-family: "Quicksand", sans-serif; 
       }
 
       .right-side {
-        font-family: "Jockey One", sans-serif; // DUPE
+        font-family: "Jockey One", sans-serif; 
       }
       
 
@@ -137,69 +137,69 @@ header {
 }
 
 .page-3 {
-  background-color: #00FF38; // DUPE
+  background-color: #00FF38; 
 
   .contact-form {
 
     h2 {
-      text-transform: uppercase; // DUPE
-      font-family: "Jockey One", sans-serif; // DUPE
-      font-weight: 400; // DUPE
+      text-transform: uppercase; 
+      font-family: "Jockey One", sans-serif; 
+      font-weight: 400; 
     }
 
     ul {
-      list-style-type: none; // DUPE
-      font-family: "Jockey One", sans-serif; // DUPE
-      text-transform: uppercase; // DUPE
+      list-style-type: none; 
+      font-family: "Jockey One", sans-serif; 
+      text-transform: uppercase; 
 
       li:nth-child(-n+6) {
-        display: flex; // DUPE
+        display: flex; 
 
         input, textarea {
-          border-radius: 0.25rem; // DUPE
-          border: none; // DUPE
+          border-radius: 0.25rem; 
+          border: none; 
         }
       }
 
       .buttons {
-        display: flex; // DUPE
+        display: flex; 
 
         .reset-button, .submit-button {
-          border-radius: 0.5rem; // DUPE
-          border: none; // DUPE
-          font-family: "Jockey One", sans-serif; // DUPE
-          color: black; // DUPE
-          text-transform: uppercase; // DUPE
+          border-radius: 0.5rem; 
+          border: none; 
+          font-family: "Jockey One", sans-serif; 
+          color: black; 
+          text-transform: uppercase; 
         }
 
         .reset-button {
-          background-color: #AA75FF; // DUPE
+          background-color: #AA75FF; 
         }
 
         .submit-button {
-          background-color: yellow; // DUPE
+          background-color: yellow; 
         }
       }
     }
   }
 
   .info-container {
-    position: relative; // DUPE
+    position: relative; 
 
     .contact-img {
-      object-fit: cover; // DUPE
-      filter: blur(3px); // DUPE
+      object-fit: cover; 
+      filter: blur(3px); 
     }
 
     .contact-info {
-      color: rgb(113, 217, 251); // DUPE
-      font-family: "Jockey One", sans-serif; // DUPE
+      color: rgb(113, 217, 251); 
+      font-family: "Jockey One", sans-serif; 
 
       .rows {
-        position: absolute; // DUPE
-        display: flex; // DUPE
-        align-items: center; // DUPE
-        gap: 20px; // DUPE
+        position: absolute; 
+        display: flex; 
+        align-items: center; 
+        gap: 20px; 
       }
     }
   }
