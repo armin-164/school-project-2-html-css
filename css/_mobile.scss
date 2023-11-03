@@ -1,0 +1,32 @@
+body {
+    background-color: yellow;
+    position: relative;
+}
+
+header {
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    
+    .header-text {
+        margin: 0;
+        align-items: center;
+        gap: 2%;
+        font-size: 2rem;
+    }
+
+    .nav-bar > #icon-hamburger-menu {
+        position: absolute;
+        right: 1%;
+        top: 25%;
+      }
+}
+
+.page-1-top-section {
+    height: 580px;
+    background-color: grey;
+    
+    .page-title {
+        height: 50%;
+    }
+}
