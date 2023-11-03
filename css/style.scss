@@ -168,6 +168,28 @@ header {
       }
     }
   }
+
+  .info-container {
+    position: relative; // DUPE
+
+    .contact-img {
+      object-fit: cover; // DUPE
+      filter: blur(3px); // DUPE
+    }
+
+    .contact-info {
+      color: rgb(113, 217, 251); // DUPE
+      font-family: "Jockey One", sans-serif; // DUPE
+      text-shadow: -2px -4px black; // DUPE
+
+      .rows {
+        position: absolute; // DUPE
+        display: flex; // DUPE
+        align-items: center; // DUPE
+        gap: 20px; // DUPE
+      }
+    }
+  }
 }
 
 
