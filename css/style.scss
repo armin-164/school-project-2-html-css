@@ -24,6 +24,20 @@ header {
   }
 }
 
+.hamburger-menu {
+  position: fixed; // DUPE
+  background-color: #AA75FF; // DUPE
+  z-index: 2; // DUPE
+  transition: transform 0.5s ease; // DUPE
+  display: flex; // DUPE
+  justify-content: center; // DUPE
+  align-items: center; // DUPE
+  flex-direction: column; // DUPE
+  font-family: "Jockey One", sans-serif;// DUPE
+  color: white; // DUPE
+  gap: 4vh; // DUPE
+}
+
 .page-1 {
   background-color: black; // Change
 
