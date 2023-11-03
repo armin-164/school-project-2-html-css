@@ -25,7 +25,25 @@ header {
 }
 
 .page-1 {
-  background-color: yellow; // Change
+  background-color: black; // Change
+
+  .page-1-bottom-section {
+    display: flex; // DUPE
+    color: white; // DUPE
+
+    .page-1-img {
+      height: 100%; // DUPE
+
+      .arrow-down {
+        position: absolute;
+        transform: rotate(90deg); // DUPE
+      }
+
+      .img-lettuce {
+
+      }
+    }
+  }
 
 }
 
