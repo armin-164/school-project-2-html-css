@@ -38,11 +38,18 @@ header {
         position: absolute;
         transform: rotate(90deg); // DUPE
       }
+    }
 
-      .img-lettuce {
+    .food-description-bottom {
+      font-family: "Jockey One", sans-serif; // DUPE
+      background-color: white; // DUPE
+      color: #ac76ff; // DUPE
 
+      span {
+        color: black; // DUPE
       }
     }
+
   }
 
 }
