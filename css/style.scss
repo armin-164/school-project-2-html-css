@@ -180,7 +180,6 @@ header {
     .contact-info {
       color: rgb(113, 217, 251); // DUPE
       font-family: "Jockey One", sans-serif; // DUPE
-      text-shadow: -2px -4px black; // DUPE
 
       .rows {
         position: absolute; // DUPE
@@ -210,6 +209,7 @@ header {
       border-radius: 1rem;
       text-transform: uppercase;
       font-family: "Jockey One", sans-serif;
+      color: black;
     }
 
     .decline-button {
