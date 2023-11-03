@@ -205,3 +205,24 @@ header {
         
     }
   }
+
+  .cookies {
+    gap: 5vw;
+    padding: 15px 0;
+    span {
+        font-size: 5vw;
+        padding-left: 20px;
+    }
+
+    .cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25%;
+
+        button {
+            width: 100%;
+            font-size: 5vw;
+        }
+    }
+}
