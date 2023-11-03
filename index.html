@@ -33,6 +33,9 @@
       <nav class="nav-bar">
         <span class="material-symbols-outlined" id="icon-hamburger-menu"> <!-- Tyvärr måste jag ha en specifik selektor för att overrida stylen -->
           menu
+        </span>
+        <span class="material-symbols-outlined" id="icon-close-menu"> <!-- Tyvärr måste jag ha en specifik selektor för att overrida stylen -->
+          close
         </span>      
       </nav>
       <h1 class="header-text">
@@ -241,10 +244,19 @@
 
 <script>
     const menuBtn = document.querySelector("#icon-hamburger-menu");
+    const close_menuBtn = document.querySelector("#icon-close-menu");
+    const allBtns = [menuBtn, close_menuBtn];
     const menu = document.querySelector(".hamburger-menu");
-    menuBtn.addEventListener('click', () => {
-    menu.classList.toggle('menu-open');
-});
+
+    menuBtn.addEventListener('click', toggleMenu);
+    close_menuBtn.addEventListener('click', toggleMenu);
+
+    function toggleMenu() {
+      menu.classList.toggle('menu-open');
+      allBtns.forEach((button) => {
+        button.style.visibility = getComputedStyle(button).visibility === 'visible' ? 'hidden' : 'visible';
+      });
+    }
 </script>
 </body>
 </html>
