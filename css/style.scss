@@ -3,13 +3,14 @@ html, body {
 }
 
 body {
-  margin: 0;
-  position: relative;
+  margin: 0; // DUPE
 }
 
 
 header {
-  background-color: black;
+  background-color: black; // DUPE
+  display: flex; // DUPE
+  align-items: center; // DUPE
   .header-text {
     display: flex;
     justify-content: center;
@@ -23,7 +24,17 @@ header {
   }
 }
 
-@import "mobile";
+.page-1 {
+  background-color: yellow; // Change
+
+}
+
+
+
+@media screen and (max-width: 1279px) {
+  @import "mobile";
+}
+
 
 @media screen and (min-width: 1280px) {
   @import "desktop";
