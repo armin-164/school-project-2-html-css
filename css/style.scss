@@ -6,6 +6,9 @@ body {
   margin: 0; 
 }
 
+//   .-.-.            .-.-. 
+//  / / \ \  HEADER  / / \ \ 
+// `-'   `-`        `-'   `-`
 
 header {
   background-color: black; 
@@ -23,6 +26,10 @@ header {
   }
 }
 
+//   .-.-.                            .-.-. 
+//  / / \ \  HAMBURGER MENU STYLING  / / \ \ 
+// `-'   `-`                        `-'   `-`
+
 .hamburger-menu {
   position: fixed; 
   background-color: #AA75FF; 
@@ -36,6 +43,10 @@ header {
   color: white; 
   gap: 4vh; 
 }
+
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 1  / / \ \ 
+// `-'   `-`        `-'   `-`
 
 .page-1 {
   background-color: black; 
@@ -66,6 +77,11 @@ header {
   }
 
 }
+
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 2  / / \ \ 
+// `-'   `-`        `-'   `-`
+
 
 .page-2 {
   
@@ -136,6 +152,11 @@ header {
   }
 }
 
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 3  / / \ \ 
+// `-'   `-`        `-'   `-`
+
+
 .page-3 {
   background-color: #00FF38; 
 
@@ -205,6 +226,11 @@ header {
   }
 }
 
+//   .-.-.              .-.-. 
+//  / / \ \  COOKIES   / / \ \ 
+// `-'   `-`          `-'   `-`
+
+
 .cookies {
   background-color: #AA75FF;
   display: flex;
@@ -237,13 +263,14 @@ header {
   }
 }
 
+//   .-.-.                   .-.-. 
+//  / / \ \  Media Queries  / / \ \ 
+// `-'   `-`               `-'   `-`
 
 @media screen and (max-width: 1279px) {
   @import "mobile";
 }
 
-
 @media screen and (min-width: 1280px) {
   @import "desktop";
 }
-
