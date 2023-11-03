@@ -436,3 +436,41 @@ header {
     }
 
 }
+
+.cookies {
+    grid-column: 2 / 13;
+    background-color: #AA75FF;
+    display: flex;
+    padding: 25px 5%;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        color: white;
+        font-size: 1.25vw;
+        font-family: "Quicksand", sans-serif;
+    }
+
+    .cookie-buttons {
+        
+
+        button {
+            width: 15vw;
+            height: 2.5rem;
+            border: none;
+            border-radius: 1rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-family: "Jockey One", sans-serif;
+            padding-bottom: 50px;
+        }
+
+        .decline-button {
+            background-color: yellow;
+        }
+
+        .accept-button {
+            background-color: #00FF38;
+        }
+    }
+}
