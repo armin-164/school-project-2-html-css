@@ -54,6 +54,75 @@ header {
 
 }
 
+.page-2 {
+  
+  .img-container-dishes {
+    display: flex; // DUPE
+  }
+
+  .menu-container {
+    display: flex; // DUPE
+    flex-direction: column; // DUPE
+    gap: 1vh; // DUPE
+
+    .items {
+      position: relative; // DUPE
+      display: flex; // DUPE
+      align-items: center; // DUPE
+      background-color: white; // DUPE
+      border-top: 1px solid black; // DUPE
+      border-bottom: 1px solid black; // DUPE
+
+      .left-side {
+        display: flex; // DUPE
+        align-items: center; // DUPE
+        text-transform: uppercase; // DUPE
+        font-family: "Jockey One", sans-serif; // DUPE
+
+        .hightlights{
+          font-family: 'Times New Roman', Times, serif; // DUPE
+          text-align: center; // DUPE
+        }
+
+        .hl-container-1 {
+          transform: rotate(4deg); // DUPE
+          background-color: #ac76ff; // DUPE
+
+          .hightlight-1 {
+            display: inline-block; // DUPE
+            transform: rotate(-4deg); // DUPE
+          }
+        }
+
+        .hl-container-2 {
+          transform: rotate(-4deg); // DUPE
+          background-color: #00FF38; // DUPE
+
+          .hightlight-2 {
+            display: inline-block; // DUPE
+            transform: rotate(4deg); // DUPE
+          }
+        }
+
+        .hl-container-3 {
+          background-color: yellow; // DUPE
+        }
+      }
+
+      .center {
+        font-family: "Quicksand", sans-serif; // DUPE
+      }
+
+      .right-side {
+        font-family: "Jockey One", sans-serif; // DUPE
+      }
+      
+
+      
+    }
+  }
+}
+
 
 
 @media screen and (max-width: 1279px) {
