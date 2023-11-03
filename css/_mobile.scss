@@ -15,6 +15,7 @@ header {
         align-items: center;
         gap: 2%;
         font-size: 2rem;
+        letter-spacing: 2px;
     }
 
     .nav-bar > #icon-hamburger-menu {
@@ -182,7 +183,6 @@ header {
                 flex: 1;
                 height: 40px;
                 font-size: 1.5rem;
-                text-transform: uppercase; // DUPE
             }
         }
       }

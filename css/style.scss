@@ -14,7 +14,6 @@ header {
   .header-text {
     display: flex;
     justify-content: center;
-    letter-spacing: 2px;
     color: white;
     font-family: "Quicksand", sans-serif;
   }
@@ -39,7 +38,7 @@ header {
 }
 
 .page-1 {
-  background-color: black; // Change
+  background-color: black; 
 
   .page-1-bottom-section {
     display: flex; // DUPE
@@ -170,6 +169,7 @@ header {
           border: none; // DUPE
           font-family: "Jockey One", sans-serif; // DUPE
           color: black; // DUPE
+          text-transform: uppercase; // DUPE
         }
 
         .reset-button {

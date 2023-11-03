@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-}
-
 //// Variables \\\\
 $side-border: 1.2vw solid yellow;
 $jockey-one: "Jockey One", sans-serif;
@@ -16,13 +12,10 @@ main {
 }
 
 header {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     position: fixed;
     height: 100vh;
     width: 8.4vw;
-    background-color: black; 
     z-index: 3;
 
     .header-text {
@@ -30,17 +23,12 @@ header {
         text-orientation: upright; 
         white-space: nowrap; 
         font-size: 4.5vh;
-        display: flex;
-        justify-content: center;
         gap: 1.75em;
         letter-spacing: 0.3em;
         padding-top: 1em;
-        font-family: 'Quicksand', sans-serif;
-        color:white;
     }
 
     .nav-bar > #icon-hamburger-menu {
-        color: yellow;
         font-size: 5vw;
       } 
     
@@ -51,20 +39,9 @@ header {
 .hamburger-menu {
     width: 91.6%;
     height: 100%;
-    z-index: 2;
-    background-color: #AA75FF;
-    position: fixed;
     right: 0;
-    transition: transform 0.5s ease;
     transform: translateX(-120%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5vh;
     font-size: 4vw;
-    font-family: $jockey-one;
-    color: white;
   }
 
   .menu-open {
@@ -78,7 +55,6 @@ header {
     grid-row: 1/2;
     display: flex;
     flex-direction: column;
-    background-color: black;
     border-left: $side-border;
     border-right: $side-border;
 
@@ -139,17 +115,12 @@ header {
     .page-1-bottom-section {
         height: 50vh;
         width: 100%;
-        display: flex;
-        color: white;
 
         .page-1-img {
-            height: 100%;
             width: 85vw;
             position: relative;
 
             .arrow-down {
-                position: absolute;
-                transform: rotate(90deg);
                 top: 85%;
                 left: 0;
                 width: 3vw;
@@ -169,10 +140,7 @@ header {
         }
 
         .food-description-bottom {
-            background-color: white;
             border-left: 1.2vw solid yellow;
-            font-family: $jockey-one;
-            color: #ac76ff;
             height: 100%;
             width: 100%;
             font-size: 2.5vw;
@@ -182,7 +150,6 @@ header {
             }
 
             span {
-                color: black;
                 display: inline-block;
             }
 
@@ -210,7 +177,6 @@ header {
 
 
     .img-container-dishes {
-        display: flex;
         gap: 1.5vw;
         margin-top: 2vh;
         height: 44vh;
@@ -231,73 +197,32 @@ header {
     }
 
     .menu-container {
-        display: flex; 
-        flex-direction: column;
-        gap: 1vh;
 
         .items {
-            position: relative;
-            display: flex;
-            align-items: center;
             height: 6vh;
-            border-top: 1px solid black;
-            border-bottom: 1px solid black;
-            background-color: white;
 
             .left-side {
-                display: flex;
-                align-items: center;
                 gap: 0.5vw;
-                text-transform: uppercase;
-                font-family: $jockey-one;
                 font-size: 1.8vw;
                 margin-left: 1vw;
 
                 .hightlights {
                     font-size: 0.75vw;
-                    font-family: 'Times New Roman', Times, serif;
                     width: 3.5vw;
-                    text-align: center;
                 }
             }
 
-            
-
-            .hl-container-1 {
-                transform: rotate(4deg);
-                background-color: #ac76ff;
-                .hightlight-1 {
-                    display: inline-block;
-                    transform: rotate(-4deg); 
-                }
-            }
-
-            .hl-container-2 {
-                transform: rotate(-4deg);
-                background-color: #00FF38;
-                .hightlight-2 {
-                    display: inline-block;
-                    transform: rotate(4deg); 
-                }
-            }
-
-            .hl-container-3 {
-                background-color: yellow;
-            }
-            
-
+        
             .center {
                 position: absolute;
                 left: 35%;
                 font-size: 1vw;
-                font-family: $quicksand;
             }
 
             .right-side {
                 position: absolute;
                 right: 2vw;
                 font-size: 2vw;
-                font-family: $jockey-one;
             }
             
         }
@@ -310,7 +235,6 @@ header {
 
 .page-3 {
     border-left: 1.2vw solid white;
-    background-color: #00FF38;
     grid-column: 2 / 13;
     grid-row: 3 / 4;
     display: flex;
@@ -320,58 +244,36 @@ header {
         height: 100%;
 
         h2 {
-            text-transform: uppercase;
             font-size: 3.5vw;
-            font-family: $jockey-one;
-            font-weight: 400;
             position: relative;
             top: 18vh;
             left: 2vw;
         }
 
         ul {
-            list-style-type: none;
             font-size: 2.5vw;
-            font-family: $jockey-one ;
-            text-transform: uppercase;
             position: relative;
             top: 12vh;
 
             li:nth-child(-n+6) {
-                display: flex;
                 align-items: center;
                 position: relative;
                 input, textarea {
                     width: 20vw;
                     height: 3.5vh;
-                    border-radius: 1vh;
-                    border: none;
                     position: absolute;
                     left: 30%;
                 }
             }
 
             .buttons {
-                display: flex;
                 align-items: center;
                 gap: 1vw;          
 
                 .reset-button, .submit-button {
                     height: 4vh;
-                    border-radius: 1vh;
-                    border: 0;
                     width: 16vw;
-                    font-family: $jockey-one;
                     font-size: 1.3vw;
-                    text-transform: uppercase;
-                }
-
-                .reset-button {
-                    background-color: #AA75FF;
-                }
-
-                .submit-button {
-                    background-color: yellow;
                 }
             }
         }
@@ -380,7 +282,6 @@ header {
     .info-container {
         width: 50%;
         height: 100%;
-        position: relative;
 
         .contact-img {
             width: 30vw;
@@ -388,22 +289,14 @@ header {
             position: relative;
             top: 22%;
             left: 13%;
-            object-fit: cover;
-            filter: blur(3px);
         }
 
         .contact-info {
-            color: rgb(113, 217, 251);
             font-size: 2vw;
-            font-family: $jockey-one;
             text-shadow: -2px -4px  black;
 
             .rows {
-                position: absolute;
                 left: 24%;
-                display: flex;
-                align-items: center;
-                gap: 20px;
 
                 .material-symbols-outlined {
                     font-size: 3vw;
@@ -435,38 +328,16 @@ header {
 
 .cookies {
     grid-column: 2 / 13;
-    background-color: #AA75FF;
-    display: flex;
     padding: 25px 5%;
     justify-content: space-between;
-    align-items: center;
-
-    span {
-        color: white;
-        font-size: 1.25vw;
-        font-family: "Quicksand", sans-serif;
-    }
 
     .cookie-buttons {
         
-
         button {
             width: 15vw;
             height: 2.5rem;
-            border: none;
-            border-radius: 1rem;
             font-size: 2rem;
-            text-transform: uppercase;
-            font-family: "Jockey One", sans-serif;
             padding-bottom: 50px;
-        }
-
-        .decline-button {
-            background-color: yellow;
-        }
-
-        .accept-button {
-            background-color: #00FF38;
         }
     }
 }
