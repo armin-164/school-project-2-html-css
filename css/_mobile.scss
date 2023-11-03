@@ -5,7 +5,9 @@ body {
 
 header {
     height: 50px;
-    position: relative;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
     justify-content: center;
     
     .header-text {
