@@ -86,4 +86,15 @@ header {
             bottom: 10%;
         }
     }
+
+    .food-description-bottom {
+        font-size: 2rem;
+        border-left: 4vw solid purple;
+        padding: 20px;
+
+        .arrow-right {
+            transform: rotate(90deg);
+        }
+    }
+
 }
