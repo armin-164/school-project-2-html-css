@@ -358,10 +358,7 @@ header {
             .buttons {
                 display: flex;
                 align-items: center;
-                gap: 1vw;
-                .reset-button::first-line, .submit-button::first-line {
-                    text-transform: uppercase;
-                }
+                gap: 1vw;          
 
                 .reset-button, .submit-button {
                     height: 4vh;
@@ -370,6 +367,7 @@ header {
                     width: 16vw;
                     font-family: $jockey-one;
                     font-size: 1.3vw;
+                    text-transform: uppercase;
                 }
 
                 .reset-button {
