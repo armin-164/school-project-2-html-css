@@ -23,10 +23,67 @@ header {
 }
 
 .page-1-top-section {
-    height: 580px;
-    background-color: grey;
-    
+    height: 700px;    
     .page-title {
-        height: 50%;
+        height: 30%;
+        position: relative;
+
+        :nth-child(1), :nth-child(2), :nth-child(3) {
+            position: absolute;
+            text-transform: uppercase;
+            font-family: "Jockey One", sans-serif;
+        }
+
+        :nth-child(1) {
+            color: purple;
+            top: 20%;
+            left: 50%;
+            font-size: 2.1rem;
+            transform: translateX(1.5%)
+
+        }
+
+        :nth-child(2) {
+            color: #00FF38;
+            left: 50%;
+            font-size: 5.5rem;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        :nth-child(3) {
+            color: yellow;
+            top: 63%;
+            left: 50%;
+            font-size: 2.1rem;
+            transform: translateX(-69.5%);
+        }
+    }
+
+    .food-description-top {
+        color: #00FF38; // DUPE
+        font-family: "Jockey One", sans-serif;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
+
+.page-1-bottom-section {
+    flex-direction: column;
+
+    .page-1-img {
+        width: 100%;
+        position: relative;
+
+        .img-lettuce {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .arrow-down {
+            right: 0;
+            bottom: 10%;
+        }
     }
 }
