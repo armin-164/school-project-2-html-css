@@ -1,7 +1,5 @@
 //// Variables \\\\
 $side-border: 1.2vw solid yellow;
-$jockey-one: "Jockey One", sans-serif;
-$quicksand: "Quicksand", sans-serif;
 
 main {
     display: grid;
@@ -107,7 +105,7 @@ header {
             > p {
                 margin: 0;
                 font-size: 5vh;
-                font-family: $jockey-one;
+                font-family: "Jockey One", sans-serif;
             }
         }
     }

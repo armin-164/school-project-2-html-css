@@ -6,6 +6,10 @@ body {
   margin: 0; 
 }
 
+//// VARIABLES \\\\
+$jockey-one: "Jockey One", sans-serif;
+$quicksand: "Quicksand", sans-serif;
+
 //   .-.-.            .-.-. 
 //  / / \ \  HEADER  / / \ \ 
 // `-'   `-`        `-'   `-`
@@ -18,7 +22,7 @@ header {
     display: flex;
     justify-content: center;
     color: white;
-    font-family: "Quicksand", sans-serif;
+    font-family: $quicksand;
   }
 
   .nav-bar > #icon-hamburger-menu {
@@ -39,7 +43,7 @@ header {
   justify-content: center; 
   align-items: center; 
   flex-direction: column; 
-  font-family: "Jockey One", sans-serif;
+  font-family: $jockey-one;
   color: white; 
   gap: 4vh; 
 }
@@ -65,7 +69,7 @@ header {
     }
 
     .food-description-bottom {
-      font-family: "Jockey One", sans-serif; 
+      font-family: $jockey-one; 
       background-color: white; 
       color: #ac76ff; 
 
@@ -106,7 +110,7 @@ header {
         display: flex; 
         align-items: center; 
         text-transform: uppercase; 
-        font-family: "Jockey One", sans-serif; 
+        font-family: $jockey-one; 
 
         .hightlights{
           font-family: 'Times New Roman', Times, serif; 
@@ -139,11 +143,11 @@ header {
       }
 
       .center {
-        font-family: "Quicksand", sans-serif; 
+        font-family: $quicksand; 
       }
 
       .right-side {
-        font-family: "Jockey One", sans-serif; 
+        font-family: $jockey-one; 
       }
       
 
@@ -164,13 +168,13 @@ header {
 
     h2 {
       text-transform: uppercase; 
-      font-family: "Jockey One", sans-serif; 
+      font-family: $jockey-one; 
       font-weight: 400; 
     }
 
     ul {
       list-style-type: none; 
-      font-family: "Jockey One", sans-serif; 
+      font-family: $jockey-one; 
       text-transform: uppercase; 
 
       li:nth-child(-n+6) {
@@ -188,7 +192,7 @@ header {
         .reset-button, .submit-button {
           border-radius: 0.5rem; 
           border: none; 
-          font-family: "Jockey One", sans-serif; 
+          font-family: $jockey-one; 
           color: black; 
           text-transform: uppercase; 
         }
@@ -214,7 +218,7 @@ header {
 
     .contact-info {
       color: rgb(113, 217, 251); 
-      font-family: "Jockey One", sans-serif; 
+      font-family: $jockey-one; 
 
       .rows {
         position: absolute; 
@@ -239,7 +243,7 @@ header {
   span {
     color: white;
     font-size: 1.25vw;
-    font-family: "Quicksand", sans-serif;
+    font-family: $quicksand;
   }
 
   .cookie-buttons {
@@ -248,7 +252,7 @@ header {
       border: none;
       border-radius: 1rem;
       text-transform: uppercase;
-      font-family: "Jockey One", sans-serif;
+      font-family: $jockey-one;
       color: black;
     }
 
