@@ -1,3 +1,31 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+
+header {
+  background-color: black;
+  .header-text {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .nav-bar > #icon-hamburger-menu {
+    color: yellow;
+  }
+}
+
+@import "mobile";
+
 @media screen and (min-width: 1280px) {
   @import "desktop";
 }
+
