@@ -29,6 +29,16 @@ header {
     .nav-bar > #icon-hamburger-menu {
         font-size: 5vw;
       } 
+
+      .nav-bar {
+        position: relative;
+      }
+
+    .nav-bar > #icon-close-menu {
+        font-size: 5vw;
+        left: 0;
+        top: 0;
+    }
     
 }
 

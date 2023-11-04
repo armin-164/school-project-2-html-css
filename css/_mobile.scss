@@ -20,9 +20,17 @@ header {
 
     .nav-bar > #icon-hamburger-menu {
         position: absolute;
-        right: 1%;
-        top: 25%;
+        right: 2%;
+        top: 10%;
+        font-size: 44px;
       }
+
+      .nav-bar > #icon-close-menu {
+        font-size: 8vw;
+        right: 2%;
+        top: 10%;
+        font-size: 44px;
+    }
 }
 
 .hamburger-menu {

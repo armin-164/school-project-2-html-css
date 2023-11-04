@@ -28,6 +28,12 @@ header {
   .nav-bar > #icon-hamburger-menu {
     color: yellow;
   }
+
+  .nav-bar > #icon-close-menu {
+    color: yellow;
+    visibility: hidden;
+    position: absolute;
+  }
 }
 
 //   .-.-.                            .-.-. 
