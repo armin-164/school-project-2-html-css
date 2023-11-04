@@ -9,6 +9,11 @@ main {
     width: 100%;
 }
 
+//   .-.-.            .-.-. 
+//  / / \ \  HEADER  / / \ \ 
+// `-'   `-`        `-'   `-`
+
+
 header {
     flex-direction: column;
     position: fixed;
@@ -42,7 +47,9 @@ header {
     
 }
 
-//////////////// HAMBURGER MENU STYLING \\\\\\\\\\\\\\\\\
+//   .-.-.                            .-.-. 
+//  / / \ \  HAMBURGER MENU STYLING  / / \ \ 
+// `-'   `-`                        `-'   `-`
 
 .hamburger-menu {
     width: 91.6%;
@@ -57,7 +64,10 @@ header {
 }
  
  
-//////////////// PAGE 1 STYLING \\\\\\\\\\\\\\\\\
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 1  / / \ \ 
+// `-'   `-`        `-'   `-`
+
 .page-1 {
     grid-column: 2 / 13;
     grid-row: 1/2;
@@ -170,8 +180,9 @@ header {
     }
 }
 
-
-//////////////// PAGE 2 STYLING \\\\\\\\\\\\\\\\\
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 2  / / \ \ 
+// `-'   `-`        `-'   `-`
 
 .page-2 {
     border-left: $side-border;
@@ -238,8 +249,9 @@ header {
     }
 }
 
-
-//////////////// PAGE 3 STYLING \\\\\\\\\\\\\\\\\
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 3  / / \ \ 
+// `-'   `-`        `-'   `-`
 
 .page-3 {
     border-left: 1.2vw solid white;
@@ -333,6 +345,10 @@ header {
     }
 
 }
+
+//   .-.-.              .-.-. 
+//  / / \ \  COOKIES   / / \ \ 
+// `-'   `-`          `-'   `-`
 
 .cookies {
     grid-column: 2 / 13;

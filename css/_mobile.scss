@@ -3,6 +3,10 @@ body {
     position: relative;
 }
 
+//   .-.-.            .-.-. 
+//  / / \ \  HEADER  / / \ \ 
+// `-'   `-`        `-'   `-`
+
 header {
     height: 50px;
     width: 100%;
@@ -33,6 +37,10 @@ header {
     }
 }
 
+//   .-.-.                            .-.-. 
+//  / / \ \  HAMBURGER MENU STYLING  / / \ \ 
+// `-'   `-`                        `-'   `-`
+
 .hamburger-menu {
     height: 100vh;
     width: 100%;
@@ -43,6 +51,10 @@ header {
 .menu-open {
     transform: translateY(0);
 }
+
+//   .-.-.                       .-.-. 
+//  / / \ \  PAGE 1 TOP SECTION / / \ \ 
+// `-'   `-`                   `-'   `-`
 
 .page-1-top-section {
     height: 700px;    
@@ -90,6 +102,11 @@ header {
     }
 }
 
+//   .-.-.                          .-.-. 
+//  / / \ \  PAGE 1 BOTTOM SECTION / / \ \ 
+// `-'   `-`                      `-'   `-`
+
+
 .page-1-bottom-section {
     flex-direction: column;
 
@@ -121,6 +138,11 @@ header {
 
 }
 
+//   .-.-.                       .-.-. 
+//  / / \ \  PAGE 2 IMAGES / / \ \ 
+// `-'   `-`                   `-'   `-`
+
+
 .img-container-dishes {
     flex-direction: column;
     align-items: center;
@@ -133,6 +155,7 @@ header {
     }
 }
 
+//// MENU ITEMS \\\\
 .items {
     flex-direction: column;
     .left-side {
@@ -162,6 +185,10 @@ header {
         font-size: 2rem;
     }
 }
+
+//   .-.-.            .-.-. 
+//  / / \ \  PAGE 3  / / \ \ 
+// `-'   `-`        `-'   `-`
 
 .page-3 {
     .contact-form {
@@ -227,6 +254,10 @@ header {
         
     }
   }
+
+//   .-.-.              .-.-. 
+//  / / \ \  COOKIES   / / \ \ 
+// `-'   `-`          `-'   `-`
 
   .cookies {
     gap: 5vw;
